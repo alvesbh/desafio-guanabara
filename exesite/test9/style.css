@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(54, 51, 51, 0.932);
+}
+#principal{
+    text-align: center;
+}
+.alinhar{
+    display: block;
+    text-align: center;
+    
+}
+#voltar{
+    text-align: center;
+
+    position: absolute;
+    top: 70%;
+    width: 99%;
+}
