@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo formularios</title>
+</head>
+<body>
+    <h1>Aprendendo formularios</h1>
+
+    <form action="teste.php" method="get" autocomplete="off">
+  <fieldset>
+   <legend>Genero</legend>
+   <input type="radio" name="genero" id="igen">
+   <label for="igen">masculino</label>
+   <input type="radio" name="genero" id="igens">
+   <label for="igens">feminino</label>
+  </fieldset>
+
+<fieldset>
+    <legend>Times de footebol</legend>
+    <input type="checkbox" name="cruzeiro" id="icrz" checked>
+    <label for="icrz">cruzeiro</label><br>
+
+    <input type="checkbox" name="atletico" id="iatle">
+    <label for="iatle">atletico</label><br>
+
+    <input type="checkbox" name="vasco" id="ivsc">
+    <label for="ivsc">vasco</label><br>
+</fieldset>
+
+<input type="submit" value="enviar">
+<input type="reset" value="limpar">
+
+
+
+    </form>
+
+</body>
+</html>
