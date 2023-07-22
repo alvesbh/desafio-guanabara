@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(imagens/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80vh;
+}
+main{
+    background-color: rgba(240, 248, 255, 0.436);
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    position: relative;
+}
+
+#formulario h1{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#formulario p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: block;
+    
+}
+
+#iemail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-indent: 5px;
+}
+#isenha{
+    border-radius: 20px;
+    text-indent: 5px;
+    margin-bottom: 10px;
+}
+#ienviar{
+    font-size: 25px;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+#ienviar:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+label{
+    padding-left: 100px;
+}
+#redes p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+#redes ul {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    margin-left: 160px;
+}
+#redes ul li a{
+    color: white;
+}
+#redes ul li a:hover{
+    color: black;
+ 
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem vindo novamente,insira seu email e sua senha para entra!</p>
+                <form action="painel.html" method="post">
+                    
+                        <label for="iemail"><ion-icon name="log-in-outline"></ion-icon></ion-icon></label>
+                        <input type="email" name="email" id="iemail" required><br>
+                        <label for="isenha"><ion-icon name="lock-closed-outline"></ion-icon></label>
+                        <input type="password" name="senha" id="isenha" required>
+                        <input type="submit" value="Logar" id="ienviar">
+                        <div id="redes">
+                            <p>ou ultilize</p>
+                            <ul>
+                                <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                                <li><a href="#"><ion-icon name="list-outline"></ion-icon></a></li>
+                            </ul>
+                            <p>Caso necesario registre <a href="#">aqui</a>!</p>
+                        </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
